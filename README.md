@@ -7,7 +7,7 @@ This README provides an overview of the project structure, detailing the roles o
 
 The project is organized into several folders, each dedicated to a specific subtask of the super-resolution challenge.
 
-- `Datasets`: This folder is intended for storing DIV2K Datasets, including `DIV2K_train_HR`, `DIV2K_train_LR_bicubic`, `DIV2K_train_LR_unknown`, `DIV2K_valid_HR`, `DIV2K_valid_LR_bicubic`, `DIV2K_valid_LR_unknown`
+- `Datasets`: This folder is intended for storing DIV2K Datasets, including `DIV2K_train_HR`, `DIV2K_train_LR_bicubic`, `DIV2K_train_LR_unknown`, `DIV2K_valid_HR`, `DIV2K_valid_LR_bicubic`, `DIV2K_valid_LR_unknown`. Each `LR` contains three different down-sampleing scale as `X2`, `X3`, `X4`.
 - `A`, `B`: Each folder corresponds to a specific subtask, including standard super-resolution (`Task A`) and unknown down-sampling super-resolution (`Task B`). The folders contain the respective code files.
 
 ## Role of Each File
